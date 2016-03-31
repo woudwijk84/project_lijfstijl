@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woo Shopping Hours v1.0.0\n"
+"POT-Creation-Date: 2015-12-28 13:42+0530\n"
+"PO-Revision-Date: 2015-12-28 13:42+0530\n"
+"Last-Translator: \n"
+"Language-Team: SketchThemes <info@sketchthemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: include/wooshopping-add-item.php:75 include/wooshopping-add-item.php:156
+#: include/wooshopping-add-item.php:158
+msgid "Shop is Closed"
+msgstr ""
+
+#: include/wooshopping-add-item.php:161
+msgid "Click here to login"
+msgstr ""
+
+#: include/wooshopping-add-item.php:162
+msgid " and save your product in cart."
+msgstr ""
+
+#: include/wooshopping-add-item.php:164
+msgid "Please login first from above link and save your product in cart."
+msgstr ""
+
+#: include/wooshopping-add-item.php:199
+msgid "Once day"
+msgstr ""
+
+#: include/wooshopping-hours-shortcode.php:34
+#: include/wooshopping-hours-shortcode.php:35
+#: include/wooshopping-hours-shortcode.php:36
+#: include/wooshopping-hours-shortcode.php:37
+#: include/wooshopping-hours-shortcode.php:38
+#: include/wooshopping-hours-shortcode.php:39
+#: include/wooshopping-hours-shortcode.php:40
+#: include/wooshopping-hours-shortcode.php:41
+#: include/wooshopping-hours-shortcode.php:42
+#: include/wooshopping-hours-shortcode.php:43
+#: include/wooshopping-hours-shortcode.php:44
+#: include/wooshopping-hours-shortcode.php:45
+#: include/wooshopping-hours-shortcode.php:46
+#: include/wooshopping-hours-shortcode.php:47
+#: include/wooshopping-hours-widget.php:49
+#: include/wooshopping-hours-widget.php:55
+#: include/wooshopping-hours-widget.php:61
+#: include/wooshopping-hours-widget.php:67
+#: include/wooshopping-hours-widget.php:73
+#: include/wooshopping-hours-widget.php:79
+#: include/wooshopping-hours-widget.php:85
+msgid "Close"
+msgstr ""
+
+#: include/wooshopping-hours-shortcode.php:54
+#: include/wooshopping-hours-widget.php:43
+msgid "Day"
+msgstr ""
+
+#: include/wooshopping-hours-shortcode.php:54
+#: include/wooshopping-hours-widget.php:43
+msgid "From"
+msgstr ""
+
+#: include/wooshopping-hours-shortcode.php:54
+#: include/wooshopping-hours-widget.php:43
+msgid "To"
+msgstr ""
+
+#: include/wooshopping-hours-shortcode.php:60
+#: include/wooshopping-hours-widget.php:47
+#: include/wooshopping-hours-widget.php:49 woo-shopping-hours.php:115
+msgid "Monday"
+msgstr ""
+
+#: include/wooshopping-hours-shortcode.php:64
+#: include/wooshopping-hours-widget.php:53
+#: include/wooshopping-hours-widget.php:55 woo-shopping-hours.php:123
+msgid "Tuesday"
+msgstr ""
+
+#: include/wooshopping-hours-shortcode.php:68
+#: include/wooshopping-hours-widget.php:59
+#: include/wooshopping-hours-widget.php:61 woo-shopping-hours.php:131
+msgid "Wednesday"
+msgstr ""
+
+#: include/wooshopping-hours-shortcode.php:72
+#: include/wooshopping-hours-widget.php:65
+#: include/wooshopping-hours-widget.php:67 woo-shopping-hours.php:139
+msgid "Thursday"
+msgstr ""
+
+#: include/wooshopping-hours-shortcode.php:76
+#: include/wooshopping-hours-widget.php:71
+#: include/wooshopping-hours-widget.php:73 woo-shopping-hours.php:147
+msgid "Friday"
+msgstr ""
+
+#: include/wooshopping-hours-shortcode.php:80
+#: include/wooshopping-hours-widget.php:77
+#: include/wooshopping-hours-widget.php:79 woo-shopping-hours.php:155
+msgid "Saturday"
+msgstr ""
+
+#: include/wooshopping-hours-shortcode.php:84
+#: include/wooshopping-hours-widget.php:83
+#: include/wooshopping-hours-widget.php:85 woo-shopping-hours.php:163
+msgid "Sunday"
+msgstr ""
+
+#: include/wooshopping-hours-widget.php:13 woo-shopping-hours.php:61
+msgid "Woo Shopping Hours"
+msgstr ""
+
+#: include/wooshopping-hours-widget.php:14
+msgid "Woo Shopping Hours Widget"
+msgstr ""
+
+#: include/wooshopping-hours-widget.php:102
+msgid "Shopping Hours"
+msgstr ""
+
+#: include/wooshopping-hours-widget.php:105
+msgid "Title:"
+msgstr ""
+
+#: woo-shopping-hours.php:44
+msgid "Settings Admin"
+msgstr ""
+
+#: woo-shopping-hours.php:45
+msgid "Woo Shop Hours"
+msgstr ""
+
+#: woo-shopping-hours.php:99
+msgid "Select Timezone"
+msgstr ""
+
+#: woo-shopping-hours.php:107
+msgid "Time Format"
+msgstr ""
+
+#: woo-shopping-hours.php:172
+msgid "Highlight Current Day"
+msgstr ""
+
+#: woo-shopping-hours.php:188
+msgid "Genrated Shortcode"
+msgstr ""
+
+#: woo-shopping-hours.php:259
+msgid ""
+"The saved settings will work in the Woo Shopping Hours Widget.You can also "
+"use Genrated Shortcode in the page or post."
+msgstr ""

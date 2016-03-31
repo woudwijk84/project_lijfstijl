@@ -7,7 +7,7 @@
 	get_header();
 	
 	// get page layout
-	$NV_layout = of_get_option('pagelayout','layout_four'); 
+	$NV_layout = of_get_option('pagelayout','layout_four');/**/
 	
 	$columns = '';
 		
@@ -20,17 +20,21 @@
 	else $columns = 'eight';	
 		
 	echo "\n\t". '<div id="content" class="columns '. $columns .' '. $NV_layout .'">'; ?>
- 
-		<article class="post">
+
+    <br>
+    <br>
+    <br>
+    <br>
+		<article class="post" style="text-align: center; ">
 			<header>
-				<h2 class="pagetitle"><?php _e("We're sorry but that page could not be found.", 'themeva' ); ?></h2>
+				<h1 class="pagetitle"><?php _e("Oeps...", 'themeva' ); ?></h1>
 			</header>
             
             <section class="entry">
-                <div class="list arrow grey">
-                    <ul>
-                        <?php wp_list_pages('title_li='); ?>
-                    </ul>
+                <div class="list arrow grey" style="height: 220px">
+            		<h2>
+						Het lijkt er op dat deze pagina niet gevonden kan worden.
+					</h2>
                 </div>      
             </section>                                  
 		</article>
@@ -40,5 +44,5 @@
 	echo "\n\t\t". '<div class="clear"></div>';
 	echo "\n\t". '</div><!-- #content -->';
 		
-	get_sidebar(); 
+//	get_sidebar();
 	get_footer();

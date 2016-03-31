@@ -18,7 +18,6 @@ if ($options['TabPosition'] == 'Bottom' && in_array($options['TabDesign'], array
     $fblbHead_top_margin = ($options['Height'] / 2) - 155;
 }
 ?>
-
 <div
     class="fblbCenterOuter <?= ($options['VPosition'] == 'Fixed' ? 'fblbFixed' : '') ?> fblb<?= $options['Position'] ?>"
     style="<?= ($options['VPosition'] == 'Fixed' ? 'margin-top: ' . ($options['VPositionPx'] ? $options['VPositionPx'] : '0') . 'px; ' : '') ?> <?= ($options['Position'] == 'Left' ? 'left: -' . ($options['Width'] + $options['Border']) . 'px;' : 'right: -' . ($options['Width'] + $options['Border']-5) . 'px;') ?><?= ($options['ZIndex'] ? 'z-index: ' . $options['ZIndex'] . ';' : '') ?>">
@@ -31,7 +30,6 @@ if ($options['TabPosition'] == 'Bottom' && in_array($options['TabDesign'], array
             <h2 class="fblbHead"
                 style="margin-top: <?= $fblbHead_top_margin ?>px; <?= ($options['Position'] == 'Left' ? 'left: ' . ($options['Width'] + $options['Border']) . 'px;' : 'right: ' . ($options['Width'] + $options['Border']-5) . 'px;') ?>">
                 Facebook</h2>
-
             <div class="fblbInner" style="background: <?= $options['BackgroundColor'] ?>;">
                 <div id="fb-root"></div>
                 <script>(function (d, s, id) {
